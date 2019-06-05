@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "20d40b5b-6385-4de4-94d3-098f0b169192": {
+        "id": "20d40b5b-6385-4de4-94d3-098f0b169192",
+        "parent": null,
+        "name": "wdwd",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "d65146ef-2740-48e3-b0d2-a92679afc5de"
+        ],
+        "isRemovable": false,
+        "filePath": "wdwd"
+      },
+      "d65146ef-2740-48e3-b0d2-a92679afc5de": {
+        "id": "d65146ef-2740-48e3-b0d2-a92679afc5de",
+        "parent": "20d40b5b-6385-4de4-94d3-098f0b169192",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "wdwd/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "20d40b5b-6385-4de4-94d3-098f0b169192",
+    "openFiles": [
+      "d65146ef-2740-48e3-b0d2-a92679afc5de"
+    ],
+    "currentFileId": "d65146ef-2740-48e3-b0d2-a92679afc5de",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "wdwd",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1559729430031
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "wdwd",
+      "url": "https://github.com/sigmaidetest/wdwd-sigma-1559729441803"
+    }
+  }
+}
